@@ -1,0 +1,18 @@
+[package]
+name = "temperature"
+authors = ["stephanh <stephanh@users.noreply.github.com>"]
+edition = "2018"
+readme = "README.md"
+version = "0.1.0"
+
+[dependencies]
+panic-halt = "~0.2"
+microbit = "~0.8"
+cortex-m = "~0.6"
+cortex-m-rt = { version = "~0.6", features = ["device"] }
+cast = { version = "*", default-features = false }
+
+[[bin]]
+name = "temperature"
+test = false
+bench = false
