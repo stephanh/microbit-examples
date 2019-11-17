@@ -1,0 +1,10 @@
+[package]
+name = "blinky"
+version = "0.1.0"
+authors = ["stephanh <stephanh@users.noreply.github.com>"]
+edition = "2018"
+
+[dependencies]
+panic-halt = "~0.2"
+microbit = "~0.8"
+cortex-m-rt = { version = "~0.6", features = ["device"] }
