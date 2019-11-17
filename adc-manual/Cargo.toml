@@ -1,0 +1,17 @@
+[package]
+name = "adc-manual"
+authors = ["stephanh <stephanh@users.noreply.github.com>"]
+edition = "2018"
+readme = "README.md"
+version = "0.1.0"
+
+[dependencies]
+panic-halt = "~0.2"
+microbit = "~0.8"
+cortex-m-rt = { version = "~0.6", features = ["device"] }
+cortex-m-semihosting = "~0.3"
+
+[[bin]]
+name = "adc-manual"
+test = false
+bench = false
