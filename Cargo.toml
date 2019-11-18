@@ -1,5 +1,5 @@
 [workspace]
-members = [ "blinky", "temperature", "adc-manual", "adc-thermistor", "tmp36" ]
+members = [ "blinky", "temperature", "adc-manual", "adc-thermistor", "tmp36", "tm1637" ]
 
 [profile.release]
 codegen-units = 1 # better optimizations
