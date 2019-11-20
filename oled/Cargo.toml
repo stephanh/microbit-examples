@@ -7,11 +7,9 @@ version = "0.1.0"
 
 [dependencies]
 panic-halt = "~0.2"
-#panic-semihosting = "0.5.3"
-microbit = { path = "../../microbit" }
-#microbit = "~0.8"
+microbit = "~0.8"
+cortex-m = "~0.6"
 cortex-m-rt = { version = "~0.6", features = ["device"] }
-#cortex-m-semihosting = "~0.3"
 ssd1306 = "0.3.0-alpha.2"
 embedded-graphics = "0.6.0-alpha.2"
 embedded-hal = "~0.2"
