@@ -1,5 +1,15 @@
 [workspace]
-members = [ "blinky", "temperature", "adc-manual", "adc-thermistor", "tmp36", "oled", "oled-rtfm", "serial-usb" ]
+members = [
+        "blinky",
+        "temperature",
+        "adc-manual",
+        "adc-thermistor",
+        "tmp36",
+        "oled",
+        "oled-rtfm",
+        "serial-usb",
+        "serial-bluetooth"
+]
 
 [profile.release]
 codegen-units = 1 # better optimizations
